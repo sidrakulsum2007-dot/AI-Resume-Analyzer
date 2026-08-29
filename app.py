@@ -7,9 +7,6 @@ st.set_page_config(
     page_icon="📄",
     layout="wide"
 )
-hf_client = InferenceClient(
-    api_key=st.secrets["HF_TOKEN"]
-)
 
 st.title("🤖 AI Resume Analyzer")
 st.write("Analyze your resume, check skills, and compare it with a job description.")
