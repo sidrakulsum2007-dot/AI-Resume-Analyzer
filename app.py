@@ -1,7 +1,6 @@
 
 import streamlit as st
 from pypdf import PdfReader
-from huggingface_hub import InferenceClient
 
 st.set_page_config(
     page_title="AI Resume Analyzer",
